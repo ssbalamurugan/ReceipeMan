@@ -1,4 +1,4 @@
-to prepare a receipe, you need to have permission from receipe man
+to prepare a paneer receipe according to 7 star standard, you need :
 
 onions
 mirchi
@@ -7,6 +7,11 @@ peas
 salt
 mirchi powder
 masala powder
+pepper 
+olives
+spring onion
+paneer 
+corn
 
 lets add a bowl of water
 lets clean it up
