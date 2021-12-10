@@ -1,0 +1,79 @@
+(i) initialize the git repository
+
+git init
+
+(ii) to know the current status of git tracking
+
+git status
+
+(iii) to add untracked files to git staging area
+
+git add <filename>
+OR
+git add <filename1> <filenam2> <filename3>
+OR
+git add *.*
+OR
+git add .
+
+(iv) to unstage the files from git staging area
+
+git rm --cached <file>..." to unstage
+
+(v) to commit the changes to git repository
+
+git commit -m "messageForCommit"
+
+05cf09a --> commit id
+
+(vi) to see the git history
+
+git log
+
+(vii) to provide your credentials to git (and in the future to github or gitlab)
+
+git config --global user.name "Kiran"
+git config --global user.email "kiran@gmail.com"
+
+(viii) to check with git, about your credentials
+
+git config --global user.name
+git config --global user.email
+
+(ix) to go back to the historical version copies/commits,
+
+git checkout <commitHash>
+
+(x) create an account in github --> sign-in to github --> create a public repository --> 
+
+URL: https://github.com/kirangopisetty/MyWebsite.git
+
+(xi) to push git local repo data to github repo,
+
+git push -u "https://github.com/kirangopisetty/MyWebsite.git" master
+
+(xii) to download the repo files from github,
+
+(a) download manually
+(b) git clone <gitHubURL>
+
+(xiii) to use alias for github repo URL,
+
+git remote add aliasName "githubURL" 
+
+git remote add origin "https://github.com/kirangopisetty/MyWebsite.git"
+
+(xiv) to push git local repo data to github server,
+
+git push -u origin master
+
+(xv) to remove files from git local repo,
+
+git restore --staged <filename1> <filename2> <filename3>
+or	
+git reset <filename1>
+
+
+
+
+
